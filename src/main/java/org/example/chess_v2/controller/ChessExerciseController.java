@@ -27,7 +27,6 @@ import java.util.Map;
 @RestController
 @RequestMapping("/api/chess_exercise")
 @Validated
-@CrossOrigin(origins = "http://localhost:3050")
 public class ChessExerciseController {
 
     @Autowired
